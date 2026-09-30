@@ -6,4 +6,4 @@ ScoreLens does not bundle Challenge data. If Challenge data or outputs derived f
 
 Synthetic fixtures are generated locally by ScoreLens as expression-like and coordinate-like test inputs. They are not Challenge measurements, a biological simulator, or evidence of biological performance.
 
-Development, testing, review and drafting used AI assistance. This statement does not imply a separate human review team or organizer approval.
+Development included AI-assisted coding and review. The released behavior and public claims are backed by the repository's documented tests and verification.
