@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vec-scorelens"
+version = "0.2.0"
+description = "Local T1, T2 and T3 prediction diagnostics using the pinned public VEC scorer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3", "scipy>=1.11,<2", "pandas>=2,<3",
+  "anndata>=0.10,<0.13", "h5py>=3.10,<4", "scikit-learn>=1.4,<1.10",
+  "threadpoolctl>=3,<4",
+  "matplotlib>=3.8,<4",
+  "veckit @ git+https://github.com/aristoteleo/veckit.git@46d41e63f42a9aab815db20b742feeccd249cb17",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "psutil>=5,<8", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8"]
+notebook = ["jupyterlab>=4,<5", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8"]
+figures = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+vec-scorelens = "vec_scorelens.cli:main"
+vec-scorelens-demo = "vec_scorelens.cli:demo_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
