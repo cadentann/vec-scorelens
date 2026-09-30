@@ -1,8 +1,9 @@
 # Changelog
 
-## 0.2.0 — development candidate
+## 0.2.0 — public release
 
-- Final verification rejects external/virtual HDF5 storage in consumed fields, embeds notebook figures, clarifies all-gene response-sign counts and supported-input limits, and updates the dated comparison with existing tools. The license remains a proposal pending rightsholder approval.
+- Final verification rejects external/virtual HDF5 storage in consumed fields, embeds notebook figures, clarifies all-gene response-sign counts and supported-input limits, and updates the dated comparison with existing tools.
+- Activated Apache-2.0 for original ScoreLens material, credited Caden Tan, retained upstream notices, and added public repository installation instructions.
 
 - Documented the unified local T1/T2/T3 front door, explicit reference/WT roles, selected-scope reporting, four evidence classes, spatial caveats, and T3 matched-WT response interpretation.
 - Added T2/T3 synthetic notebook walkthrough documentation and retained the T1 notebook route.

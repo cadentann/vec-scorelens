@@ -1,6 +1,13 @@
-# Third-party notices
+# ScoreLens notices
 
-ScoreLens invokes `veckit` and replays selected formulas from its pinned metric implementation for diagnostic reconciliation. The following notice is reproduced from the [upstream LICENSE](https://github.com/aristoteleo/veckit/blob/46d41e63f42a9aab815db20b742feeccd249cb17/LICENSE) at commit `46d41e63f42a9aab815db20b742feeccd249cb17`. It applies to that upstream material, not as an operative license for original ScoreLens material. See [LICENSE_PROPOSED.md](LICENSE_PROPOSED.md).
+VEC ScoreLens
+Copyright 2026 Caden Tan
+
+Original ScoreLens material controlled by the rights holder is licensed under Apache License 2.0; see [LICENSE](LICENSE). Third-party materials retain their own licenses. Challenge materials and datasets, official panels, dependencies, external code, user inputs and reports derived from data whose rights belong elsewhere are excluded from this grant.
+
+## Third-party notices
+
+ScoreLens invokes `veckit` and replays selected formulas from its pinned metric implementation for diagnostic reconciliation. The following notice is reproduced from the [upstream LICENSE](https://github.com/aristoteleo/veckit/blob/46d41e63f42a9aab815db20b742feeccd249cb17/LICENSE) at commit `46d41e63f42a9aab815db20b742feeccd249cb17`. It applies to that upstream material. The ScoreLens Apache-2.0 license does not relicense it.
 
 ```text
 MIT License

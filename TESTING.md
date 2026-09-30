@@ -27,4 +27,4 @@ export MPLCONFIGDIR="$PWD/local_outputs/matplotlib_cache"
 export IPYTHONDIR="$PWD/local_outputs/ipython_cache"
 ```
 
-Upstream scikit-learn may warn that its `n_jobs` option is deprecated; this does not change the pinned scoring source. Keep warning logs. The dated private release evidence records exact frozen-file hashes, clean-wheel installation, full-suite outcomes, notebook executions, independent review and browser checks. This document does not turn synthetic acceptance into a Challenge score, biological validation, or a calibrated false-alarm guarantee.
+Upstream scikit-learn may warn that its `n_jobs` option is deprecated; this does not change the pinned scoring source. Keep warning logs and record the commit and environment for your own run. Synthetic acceptance does not establish a Challenge score, biological validation, or a calibrated false-alarm guarantee.

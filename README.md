@@ -6,9 +6,11 @@ Use only locally supplied targets that you are permitted to analyze. A pseudo-ta
 
 ## Install
 
-From the repository root with Python 3.11 or later:
+Clone the public repository, then install from its root with Python 3.11 or later:
 
 ```sh
+git clone https://github.com/cadentann/vec-scorelens.git
+cd vec-scorelens
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -101,3 +103,7 @@ All tasks retain per-gene pseudobulk/DE ledgers, frozen-probe composition terms,
 Priority findings cover only the published selected-sample conventions: literal response reversal, mean residual, eligible T3 response magnitude, frozen-probe composition, variance ratio, selected spatial size, and original-count metadata. The report explicitly leaves raw official-metric ranking, SW/Dice shape, sampled covariance, local-neighborhood organization, laterality, biological health, and sensitivity-based repair advice outside priority evaluation. A result within listed thresholds is never an all-clear for those unsupported domains or for full files.
 
 See [METHODS.md](METHODS.md) for definitions, [LIMITATIONS.md](LIMITATIONS.md) and [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md) for boundaries, [TESTING.md](TESTING.md) for commands and acceptance status, and [ATTRIBUTION.md](ATTRIBUTION.md) for upstream and Challenge notices.
+
+## License and credit
+
+Copyright 2026 Caden Tan. Original ScoreLens source, tests, documentation, notebooks and synthetic examples are licensed under [Apache-2.0](LICENSE). Third-party materials retain their own licenses; the upstream `veckit` MIT notice is preserved in [NOTICE.md](NOTICE.md). This license does not cover Challenge materials or datasets, official panels, dependencies, external code, user inputs, or reports derived from data whose rights belong elsewhere. Development, testing, review and drafting used AI assistance; see [ATTRIBUTION.md](ATTRIBUTION.md).
